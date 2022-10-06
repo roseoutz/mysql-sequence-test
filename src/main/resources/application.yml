@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+spring:
+  profiles:
+    active: test
+  config:
+    import:
+      - 'classpath:profiles/application-test.yml'
+
